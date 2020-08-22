@@ -6,9 +6,28 @@
     <description>Recent content in Categories on Clarity</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 21 Aug 2020 12:40:58 -0500</lastBuildDate>
     
 	<atom:link href="https://htenjo.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>blog</title>
+      <link>https://htenjo.github.io/categories/blog/</link>
+      <pubDate>Fri, 21 Aug 2020 12:40:58 -0500</pubDate>
+      
+      <guid>https://htenjo.github.io/categories/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>static sites</title>
+      <link>https://htenjo.github.io/categories/static-sites/</link>
+      <pubDate>Fri, 21 Aug 2020 12:40:58 -0500</pubDate>
+      
+      <guid>https://htenjo.github.io/categories/static-sites/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

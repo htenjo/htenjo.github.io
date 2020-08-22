@@ -6,16 +6,35 @@
     <description>Recent content in Tags on Clarity</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 21 Aug 2020 12:40:58 -0500</lastBuildDate>
     
 	<atom:link href="https://htenjo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>index</title>
-      <link>https://htenjo.github.io/tags/index/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>blogs</title>
+      <link>https://htenjo.github.io/tags/blogs/</link>
+      <pubDate>Fri, 21 Aug 2020 12:40:58 -0500</pubDate>
       
-      <guid>https://htenjo.github.io/tags/index/</guid>
+      <guid>https://htenjo.github.io/tags/blogs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://htenjo.github.io/tags/github/</link>
+      <pubDate>Fri, 21 Aug 2020 12:40:58 -0500</pubDate>
+      
+      <guid>https://htenjo.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>https://htenjo.github.io/tags/markdown/</link>
+      <pubDate>Fri, 21 Aug 2020 12:40:58 -0500</pubDate>
+      
+      <guid>https://htenjo.github.io/tags/markdown/</guid>
       <description></description>
     </item>
     

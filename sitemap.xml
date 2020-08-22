@@ -8,12 +8,47 @@
   </url>
   
   <url>
+    <loc>https://htenjo.github.io/categories/blog/</loc>
+    <lastmod>2020-08-21T12:40:58-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://htenjo.github.io/tags/blogs/</loc>
+    <lastmod>2020-08-21T12:40:58-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://htenjo.github.io/post/free-blog-platform/</loc>
     <lastmod>2020-08-21T12:40:58-05:00</lastmod>
   </url>
   
   <url>
+    <loc>https://htenjo.github.io/categories/</loc>
+    <lastmod>2020-08-21T12:40:58-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://htenjo.github.io/tags/github/</loc>
+    <lastmod>2020-08-21T12:40:58-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://htenjo.github.io/tags/markdown/</loc>
+    <lastmod>2020-08-21T12:40:58-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://htenjo.github.io/post/</loc>
+    <lastmod>2020-08-21T12:40:58-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://htenjo.github.io/categories/static-sites/</loc>
+    <lastmod>2020-08-21T12:40:58-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://htenjo.github.io/tags/</loc>
     <lastmod>2020-08-21T12:40:58-05:00</lastmod>
   </url>
   
@@ -25,18 +60,6 @@
   <url>
     <loc>https://htenjo.github.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://htenjo.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://htenjo.github.io/tags/index/</loc>
-  </url>
-  
-  <url>
-    <loc>https://htenjo.github.io/tags/</loc>
   </url>
   
 </urlset>
