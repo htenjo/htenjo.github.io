@@ -5,18 +5,45 @@
     <link>https://htenjo.github.io/tags/</link>
     <description>Recent content in Tags on Clarity</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
-    <lastBuildDate>Fri, 21 Aug 2020 12:40:58 -0500</lastBuildDate>
+    <copyright>Copyright © 2020, all rights reserved.</copyright>
+    <lastBuildDate>Sun, 23 Aug 2020 14:47:57 -0500</lastBuildDate>
     
 	<atom:link href="https://htenjo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>blogs</title>
-      <link>https://htenjo.github.io/tags/blogs/</link>
+      <title>amqp</title>
+      <link>https://htenjo.github.io/tags/amqp/</link>
+      <pubDate>Sun, 23 Aug 2020 14:47:57 -0500</pubDate>
+      
+      <guid>https://htenjo.github.io/tags/amqp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>java</title>
+      <link>https://htenjo.github.io/tags/java/</link>
+      <pubDate>Sun, 23 Aug 2020 14:47:57 -0500</pubDate>
+      
+      <guid>https://htenjo.github.io/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jms</title>
+      <link>https://htenjo.github.io/tags/jms/</link>
+      <pubDate>Sun, 23 Aug 2020 14:47:57 -0500</pubDate>
+      
+      <guid>https://htenjo.github.io/tags/jms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>https://htenjo.github.io/tags/blog/</link>
       <pubDate>Fri, 21 Aug 2020 12:40:58 -0500</pubDate>
       
-      <guid>https://htenjo.github.io/tags/blogs/</guid>
+      <guid>https://htenjo.github.io/tags/blog/</guid>
       <description></description>
     </item>
     

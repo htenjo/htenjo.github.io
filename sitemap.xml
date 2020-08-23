@@ -4,6 +4,51 @@
   
   <url>
     <loc>https://htenjo.github.io/</loc>
+    <lastmod>2020-08-23T14:47:57-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://htenjo.github.io/tags/amqp/</loc>
+    <lastmod>2020-08-23T14:47:57-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://htenjo.github.io/categories/</loc>
+    <lastmod>2020-08-23T14:47:57-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://htenjo.github.io/post/java/differences-between-amqp-and-jms/</loc>
+    <lastmod>2020-08-23T14:47:57-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://htenjo.github.io/tags/java/</loc>
+    <lastmod>2020-08-23T14:47:57-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://htenjo.github.io/categories/java/</loc>
+    <lastmod>2020-08-23T14:47:57-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://htenjo.github.io/tags/jms/</loc>
+    <lastmod>2020-08-23T14:47:57-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://htenjo.github.io/post/</loc>
+    <lastmod>2020-08-23T14:47:57-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://htenjo.github.io/tags/</loc>
+    <lastmod>2020-08-23T14:47:57-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://htenjo.github.io/tags/blog/</loc>
     <lastmod>2020-08-21T12:40:58-05:00</lastmod>
   </url>
   
@@ -13,17 +58,7 @@
   </url>
   
   <url>
-    <loc>https://htenjo.github.io/tags/blogs/</loc>
-    <lastmod>2020-08-21T12:40:58-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://htenjo.github.io/post/free-blog-platform/</loc>
-    <lastmod>2020-08-21T12:40:58-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://htenjo.github.io/categories/</loc>
+    <loc>https://htenjo.github.io/post/blog/free-blog-platform/</loc>
     <lastmod>2020-08-21T12:40:58-05:00</lastmod>
   </url>
   
@@ -38,17 +73,7 @@
   </url>
   
   <url>
-    <loc>https://htenjo.github.io/post/</loc>
-    <lastmod>2020-08-21T12:40:58-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://htenjo.github.io/categories/static-sites/</loc>
-    <lastmod>2020-08-21T12:40:58-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://htenjo.github.io/tags/</loc>
     <lastmod>2020-08-21T12:40:58-05:00</lastmod>
   </url>
   
