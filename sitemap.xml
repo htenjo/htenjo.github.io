@@ -4,16 +4,41 @@
   
   <url>
     <loc>https://htenjo.github.io/</loc>
-    <lastmod>2020-08-23T14:47:57-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://htenjo.github.io/tags/amqp/</loc>
-    <lastmod>2020-08-23T14:47:57-05:00</lastmod>
+    <lastmod>2020-08-31T09:38:40-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://htenjo.github.io/categories/</loc>
+    <lastmod>2020-08-31T09:38:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://htenjo.github.io/tags/git/</loc>
+    <lastmod>2020-08-31T09:38:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://htenjo.github.io/post/tools/git-cheat-sheet/</loc>
+    <lastmod>2020-08-31T09:38:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://htenjo.github.io/post/</loc>
+    <lastmod>2020-08-31T09:38:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://htenjo.github.io/tags/</loc>
+    <lastmod>2020-08-31T09:38:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://htenjo.github.io/categories/tools/</loc>
+    <lastmod>2020-08-31T09:38:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://htenjo.github.io/tags/amqp/</loc>
     <lastmod>2020-08-23T14:47:57-05:00</lastmod>
   </url>
   
@@ -34,16 +59,6 @@
   
   <url>
     <loc>https://htenjo.github.io/tags/jms/</loc>
-    <lastmod>2020-08-23T14:47:57-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://htenjo.github.io/post/</loc>
-    <lastmod>2020-08-23T14:47:57-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://htenjo.github.io/tags/</loc>
     <lastmod>2020-08-23T14:47:57-05:00</lastmod>
   </url>
   

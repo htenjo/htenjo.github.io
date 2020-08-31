@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools on Clarity</title>
+    <link>https://htenjo.github.io/categories/tools/</link>
+    <description>Recent content in Tools on Clarity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2020, all rights reserved.</copyright>
+    <lastBuildDate>Mon, 31 Aug 2020 09:38:40 -0500</lastBuildDate>
+    
+	<atom:link href="https://htenjo.github.io/categories/tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Personal Git Cheat Sheet</title>
+      <link>https://htenjo.github.io/post/tools/git-cheat-sheet/</link>
+      <pubDate>Mon, 31 Aug 2020 09:38:40 -0500</pubDate>
+      
+      <guid>https://htenjo.github.io/post/tools/git-cheat-sheet/</guid>
+      <description>Git commands For sure there are a lot of additional git commands, weird configurations, or more robust cheat sheets everywhere but this is my own compilation, these are most of the commands I&amp;rsquo;ve required on a daily basis organized and with a description easy to understand for future reference.
+For different command options, I&amp;rsquo;ll use ::: to avoid confusion with semicolons or other characters.
+Configuration commands    Type Description Command     Config Configure vscode as default git editor $ git config --global core.</description>
+    </item>
+    
+  </channel>
+</rss>

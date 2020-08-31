@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" data-figures="" class="page">
-  <head>  <title>Clarity</title>
+<html lang="en" data-figures="true" class="page">
+  <head>  <title>Personal Git Cheat Sheet | Clarity</title>
   <meta charset='utf-8'>
   <meta name="generator" content="Hugo 0.74.3" />
   <meta name = 'viewport' content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
@@ -12,15 +12,16 @@
   gtag('js', new Date());
   gtag('config', 'UA-176066250-1');
 </script>
+  
 <meta property = "og:locale" content = "en_US" />
 <meta property="og:type" content="article">
-<meta name="description" content="">
+<meta name="description" content="Article description.">
 <meta name = "twitter:card" content = "summary" />
 <meta name = "twitter:creator" content = "@htenjo_">
-<meta name = "twitter:title" content = "" />
-<meta property = "og:url" content = "https://htenjo.github.io/archives/" />
-<meta property = "og:title" content = "" />
-<meta property = "og:description" content = "" />
+<meta name = "twitter:title" content = "Personal Git Cheat Sheet" />
+<meta property = "og:url" content = "https://htenjo.github.io/post/tools/git-cheat-sheet/" />
+<meta property = "og:title" content = "Personal Git Cheat Sheet" />
+<meta property = "og:description" content = "Article description." />
 <meta property = "og:image" content = "https://htenjo.github.io/images/htenjo-light.png" />
 <link rel='apple-touch-icon' sizes='180x180' href='https://htenjo.github.io/icons/apple-touch-icon.png'>
 <link rel='icon' type='image/png' sizes='32x32' href='https://htenjo.github.io/icons/favicon-32x32.png'>
@@ -30,7 +31,7 @@
 <meta name="msapplication-TileColor" content="#002538">
 <meta name="theme-color" content="#002538">
 
-  <link rel='canonical' href='https://htenjo.github.io/archives/'>
+  <link rel='canonical' href='https://htenjo.github.io/post/tools/git-cheat-sheet/'>
 
     
 
@@ -47,8 +48,9 @@
   
   
     
+    
   
-  <body data-code="7" data-lines="true" id="documentTop">
+  <body data-code="10" data-lines="false" id="documentTop">
 
 <header class = 'nav_header' >
   <nav class = 'nav'>
@@ -116,30 +118,32 @@
   
 <div class = 'grid-inverse wrap content'>
   <article class='post_content'>
-    <h1 class='post_title'></h1><div class = 'post_meta'>
+    <h1 class='post_title'>Personal Git Cheat Sheet</h1><div class = 'post_meta'>
   <svg class="icon">
     <use xlink:href="#calendar"></use>
   </svg>
   <span class="post_date">
-    May 28, 2019</span>
+    Aug 31, 2020</span>
+  <a href = 'https://htenjo.github.io/tags/git' class = 'post_tag button button_translucent'>Git
+  </a>
 </div>
 
     <div class='post_share'>
   Share on:
-  <a href="https://twitter.com/intent/tweet?text=&url=https%3a%2f%2fhtenjo.github.io%2farchives%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
+  <a href="https://twitter.com/intent/tweet?text=Personal%20Git%20Cheat%20Sheet&url=https%3a%2f%2fhtenjo.github.io%2fpost%2ftools%2fgit-cheat-sheet%2f&tw_p=tweetbutton" class="twitter" title="Share on Twitter" target="_blank" rel="nofollow">
     <svg class="icon">
       <use xlink:href="#twitter"></use>
     </svg>
   </a>
   
-  <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fhtenjo.github.io%2farchives%2f&t=" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
+  <a href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fhtenjo.github.io%2fpost%2ftools%2fgit-cheat-sheet%2f&t=Personal%20Git%20Cheat%20Sheet" class="facebook" title="Share on Facebook" target="_blank" rel="nofollow">
     <svg class="icon">
       <use xlink:href="#facebook"></use>
     </svg>
   </a>
   <script>
     function shareViaLinkedin() {
-      window.open('http://www.linkedin.com/shareArticle?mini=true&url='+encodeURIComponent("https://htenjo.github.io/archives/"), '', 'left=0,top=0,width=650,height=420,personalbar=0,toolbar=0,scrollbars=0,resizable=0');
+      window.open('http://www.linkedin.com/shareArticle?mini=true&url='+encodeURIComponent("https://htenjo.github.io/post/tools/git-cheat-sheet/"), '', 'left=0,top=0,width=650,height=420,personalbar=0,toolbar=0,scrollbars=0,resizable=0');
     }
   </script>
   <a href="#linkedinshare" id = "linkedinshare" class="linkedin" title="Share on LinkedIn" rel="nofollow" onclick="shareViaLinkedin()">
@@ -147,7 +151,7 @@
       <use xlink:href="#linkedin"></use>
     </svg>
   </a>
-  <a href="https://htenjo.github.io/archives/" title="Copy Link" class="link link_yank">
+  <a href="https://htenjo.github.io/post/tools/git-cheat-sheet/" title="Copy Link" class="link link_yank">
     <svg class="icon">
       <use xlink:href="#yank"></use>
     </svg>
@@ -155,7 +159,239 @@
 </div>
 
     
-    
+    <h1 id="git-commands">Git commands</h1>
+<p>For sure there are a lot of additional <code>git</code> commands, weird configurations, or more robust cheat sheets everywhere but this is my own compilation, these are most of the commands I&rsquo;ve required on a daily basis organized and with a description easy to understand for future reference.</p>
+<p>For different command options, I&rsquo;ll use <code>:::</code> to avoid confusion with semicolons or other characters.</p>
+<h2 id="configuration-commands">Configuration commands</h2>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+<th>Command</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Config</td>
+<td>Configure vscode as default git editor</td>
+<td><code>$ git config --global core.editor &quot;code --wait&quot;</code></td>
+</tr>
+<tr>
+<td>Config</td>
+<td>Enable git colors</td>
+<td><code>$ git config --global color.ui true</code></td>
+</tr>
+<tr>
+<td>Config</td>
+<td>Configure commit user</td>
+<td><code>$ git config --global user.name</code></td>
+</tr>
+<tr>
+<td>Config</td>
+<td>Open configurations in editor</td>
+<td><code>$ git config -e</code> ::: <code>$ git config --global -e</code></td>
+</tr>
+<tr>
+<td>Config</td>
+<td>List all config properties</td>
+<td><code>$ git config -l</code> ::: <code>$ git config --local -l</code></td>
+</tr>
+<tr>
+<td>Config</td>
+<td>Avoid open editor when listing branches</td>
+<td><code>$ git config --global pager.branch false</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="commands-related-with-branch-handling">Commands related with branch handling</h2>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+<th>Command</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Branch</td>
+<td>Rename current branch</td>
+<td><code>$ git branch -m new-name</code></td>
+</tr>
+<tr>
+<td>Branch</td>
+<td>Rename other branch</td>
+<td><code>$ git branch -m old-name new-name</code></td>
+</tr>
+<tr>
+<td>Branch</td>
+<td>Push renamed branch</td>
+<td><code>$ git push origin :old-name new-name</code></td>
+</tr>
+<tr>
+<td>Branch</td>
+<td>Delete local branch</td>
+<td><code>$ git branch -d [-D to force] &lt;branch_name&gt;</code></td>
+</tr>
+<tr>
+<td>Branch</td>
+<td>Delete remote branch</td>
+<td><code>$ git push -d [-D to force] &lt;remote_name&gt; &lt;branch_name&gt;</code></td>
+</tr>
+<tr>
+<td>Branch</td>
+<td>Display all branches</td>
+<td><code>$ git branch -a</code></td>
+</tr>
+<tr>
+<td>Branch</td>
+<td>List all branches that have been merged into the current branch.</td>
+<td><!-- raw HTML omitted -->$ git branch &ndash;merged<!-- raw HTML omitted --></td>
+</tr>
+<tr>
+<td>Branch</td>
+<td>List references that could be deleted from local</td>
+<td><code>$ git remote prune origin --dry-run</code></td>
+</tr>
+<tr>
+<td>Branch</td>
+<td>Delete references not present on remote</td>
+<td><code>$ git remote prune origin</code></td>
+</tr>
+<tr>
+<td>Remotes</td>
+<td>List all remotes configured</td>
+<td><code>$ git remote -v </code></td>
+</tr>
+<tr>
+<td>Remotes</td>
+<td>Display url of remote <code>origin</code></td>
+<td><code>$ git remote get-url origin</code></td>
+</tr>
+<tr>
+<td>Remotes</td>
+<td>Add a remote reference to our repo</td>
+<td><code>$ git remote add &lt;remote-reference-name&gt; &lt;remote-url&gt;</code></td>
+</tr>
+<tr>
+<td>Remotes</td>
+<td>Delete a remote reference from our repo</td>
+<td><code>$ git remote remove &lt;remote-reference-name&gt;</code></td>
+</tr>
+<tr>
+<td>Remotes</td>
+<td>Rename a remote reference</td>
+<td><code>$ git remote rename &lt;old-name&gt; &lt;new-name&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="commands-related-with-git-logs">Commands related with git logs</h2>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+<th>Command</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Logs</td>
+<td>Display logs in single</td>
+<td><code>$ git log --oneline</code></td>
+</tr>
+<tr>
+<td>Logs</td>
+<td>Display logs</td>
+<td><code>$ git log --graph --decorate --pretty=oneline --abbrev-commit --all</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="commands-related-with-commit-handling">Commands related with commit handling</h2>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+<th>Command</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Commit</td>
+<td>Basic interactive rebase</td>
+<td><code>$ git rebase -i -p 0ad14fa5</code></td>
+</tr>
+<tr>
+<td>Commit</td>
+<td>Change last commit author</td>
+<td><code>$ git commit --amend --author=&quot;Hernan &lt;NEW EMAIL&gt;&quot; --no-edit</code></td>
+</tr>
+<tr>
+<td>Commit</td>
+<td>To revert a rebase already pushed</td>
+<td><code>$ $ git reflog &lt;branch&gt;</code> -&gt; <code>$ git push -f</code></td>
+</tr>
+<tr>
+<td>Commit</td>
+<td>Working with unrelated history between branches</td>
+<td><code>$ git pull origin branchname --allow-unrelated-histories</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="commands-related-with-submodules">Commands related with submodules</h2>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+<th>Command</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Submodules</td>
+<td>Add a new submodule pointing to master</td>
+<td><code>$ git submodule add -b master &lt;REMOTE_REPOSITORY&gt; &lt;FOLDER_IN_CURRENT_PROJECT&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="general-procedures">General procedures</h2>
+<ul>
+<li>
+<p>Change the git author history</p>
+<ol>
+<li><code>$ git rebase -i X</code></li>
+<li><code>$ git commit --amend --author=&quot;&lt;NAME&gt; &lt;EMAIL&gt;&quot; --no-edit</code></li>
+<li><code>$ git rebase --continue</code></li>
+<li><code>$ git stash save YOUR_MESSAGE</code></li>
+</ol>
+</li>
+<li>
+<p>Delete all local branches not present on remote<br>
+<code>$ git branch --merged | grep -v &quot;master&quot; | grep -v &quot;develop&quot; &gt; /tmp/merged-branches &amp;&amp; vi /tmp/merged-branches &amp;&amp; xargs git branch -d &lt; /tmp/merged-branches</code></p>
+</li>
+<li>
+<p>Delete all local branches with remote branch GONE</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="ln">1</span>$ git fetch -p <span class="o">&amp;&amp;</span> <span class="k">for</span> branch in <span class="s1">&#39;git for-each-ref --format &#39;</span>%<span class="o">(</span>refname<span class="o">)</span> %<span class="o">(</span>upstream:track<span class="o">)</span><span class="s1">&#39; refs/heads | awk &#39;</span><span class="nv">$2</span> <span class="o">==</span> <span class="s2">&#34;[gone]&#34;</span> <span class="o">{</span>sub<span class="o">(</span><span class="s2">&#34;refs/heads/&#34;</span>, <span class="s2">&#34;&#34;</span>, <span class="nv">$1</span><span class="o">)</span><span class="p">;</span> print <span class="nv">$1</span><span class="o">}</span><span class="err">&#39;</span><span class="p">;</span> <span class="k">do</span> git branch -D <span class="nv">$branch</span><span class="p">;</span> <span class="k">done</span>
+</code></pre></div><p><code>$ git fetch -p &amp;&amp; for branch in 'git for-each-ref --format '%(refname) %(upstream:track)' refs/heads | awk '$2 == &quot;[gone]&quot; {sub(&quot;refs/heads/&quot;, &quot;&quot;, $1); print $1}'; do git branch -D $branch; done</code></p>
+</li>
+<li>
+<p>Remove submodules completely</p>
+<ul>
+<li><code>$ git submodule deinit public</code></li>
+<li><code>$ git rm -r public</code></li>
+<li><code>$ git commit -m &quot;Removed submodule public&quot;</code></li>
+<li><code>$ rm -rf .git/modules/public</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="usefull-external-info">Usefull external info</h2>
+<ul>
+<li>Tips: <a href="https://docs.plone.org/develop/coredev/docs/git.html#making-commits">https://docs.plone.org/develop/coredev/docs/git.html#making-commits</a></li>
+</ul>
+
   </article>
 <aside class="sidebar">
   <section class="sidebar_inner">
@@ -167,9 +403,6 @@
     <h2 class="mt-4">Featured Posts</h2>
     <ul>
     
-      <li>
-        <a href="https://htenjo.github.io/post/tools/git-cheat-sheet/" class="nav-link">Personal Git Cheat Sheet</a>
-      </li>
     
       <li>
         <a href="https://htenjo.github.io/post/java/differences-between-amqp-and-jms/" class="nav-link">Differences between AMQP and JMS</a>
@@ -183,9 +416,6 @@
     <h2 class="mt-4">Recent Posts</h2>
     <ul class="flex-column">
       
-      <li>
-        <a href="https://htenjo.github.io/post/tools/git-cheat-sheet/" class="nav-link">Personal Git Cheat Sheet</a>
-      </li>
       <li>
         <a href="https://htenjo.github.io/post/java/differences-between-amqp-and-jms/" class="nav-link">Differences between AMQP and JMS</a>
       </li>
