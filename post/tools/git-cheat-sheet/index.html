@@ -22,7 +22,7 @@
 <meta property = "og:url" content = "https://htenjo.github.io/post/tools/git-cheat-sheet/" />
 <meta property = "og:title" content = "Personal Git Cheat Sheet" />
 <meta property = "og:description" content = "Article description." />
-<meta property = "og:image" content = "https://htenjo.github.io/images/htenjo-light.png" />
+<meta property = "og:image" content = "https://htenjo.github.io/images/building.png" />
 <link rel='apple-touch-icon' sizes='180x180' href='https://htenjo.github.io/icons/apple-touch-icon.png'>
 <link rel='icon' type='image/png' sizes='32x32' href='https://htenjo.github.io/icons/favicon-32x32.png'>
 <link rel='icon' type='image/png' sizes='16x16' href='https://htenjo.github.io/icons/favicon-16x16.png'>
@@ -36,12 +36,12 @@
     
 
     
-    <link rel="preload" href="https://htenjo.github.io/css/styles.1e3ef743dcaf51c516203692231d07c71fa91b74b41e0651c9c0833bb91f43b792d0d7647fb6e334f070b9a6a9e9c298e15a845ed05ea2e50fb3c758af4a46a2.css" integrity = "sha512-Hj73Q9yvUcUWIDaSIx0Hxx&#43;pG3S0HgZRycCDO7kfQ7eS0Ndkf7bjNPBwuaap6cKY4VqEXtBeouUPs8dYr0pGog==" as="style" crossorigin="anonymous">
+    <link rel="preload" href="https://htenjo.github.io/css/styles.333847ee42c3ad787a8b8f7efc70a73c595c782602c31a4b9915e65ecb9a71ca99760cc72a5e2f096e8abf0b03fec969c4239406bc8b127156b895232ab01218.css" integrity = "sha512-MzhH7kLDrXh6i49&#43;/HCnPFlceCYCwxpLmRXmXsuaccqZdgzHKl4vCW6KvwsD/slpxCOUBryLEnFWuJUjKrASGA==" as="style" crossorigin="anonymous">
     <link rel="preload" href="https://htenjo.github.io/js/bundle.3e473acaa324ea5e3f86cc1286912d5ac077730409e3f79aef645a8712e5dec12a68b7cec3140a9bc4f397083f913dcc78cedb13b9c919cf76913afd6d3ea683.js" as="script" integrity=
     "sha512-Pkc6yqMk6l4/hswShpEtWsB3cwQJ4/ea72RahxLl3sEqaLfOwxQKm8Tzlwg/kT3MeM7bE7nJGc92kTr9bT6mgw==" crossorigin="anonymous">
 
     
-    <link rel="stylesheet" type="text/css" href="https://htenjo.github.io/css/styles.1e3ef743dcaf51c516203692231d07c71fa91b74b41e0651c9c0833bb91f43b792d0d7647fb6e334f070b9a6a9e9c298e15a845ed05ea2e50fb3c758af4a46a2.css" integrity="sha512-Hj73Q9yvUcUWIDaSIx0Hxx&#43;pG3S0HgZRycCDO7kfQ7eS0Ndkf7bjNPBwuaap6cKY4VqEXtBeouUPs8dYr0pGog==" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://htenjo.github.io/css/styles.333847ee42c3ad787a8b8f7efc70a73c595c782602c31a4b9915e65ecb9a71ca99760cc72a5e2f096e8abf0b03fec969c4239406bc8b127156b895232ab01218.css" integrity="sha512-MzhH7kLDrXh6i49&#43;/HCnPFlceCYCwxpLmRXmXsuaccqZdgzHKl4vCW6KvwsD/slpxCOUBryLEnFWuJUjKrASGA==" crossorigin="anonymous">
 	  
   </head>
   
@@ -338,6 +338,16 @@
 <td>Working with unrelated history between branches</td>
 <td><code>$ git pull origin branchname --allow-unrelated-histories</code></td>
 </tr>
+<tr>
+<td>Remove</td>
+<td>Remove file from tracking</td>
+<td><code>$ git rm --cached &lt;file&gt;</code></td>
+</tr>
+<tr>
+<td>Remove</td>
+<td>Remove folder from tracking</td>
+<td><code>$ git rm -r --cached &lt;folder&gt;</code></td>
+</tr>
 </tbody>
 </table>
 <h2 id="commands-related-with-submodules">Commands related with submodules</h2>
@@ -369,14 +379,13 @@
 </ol>
 </li>
 <li>
-<p>Delete all local branches not present on remote<br>
-<code>$ git branch --merged | grep -v &quot;master&quot; | grep -v &quot;develop&quot; &gt; /tmp/merged-branches &amp;&amp; vi /tmp/merged-branches &amp;&amp; xargs git branch -d &lt; /tmp/merged-branches</code></p>
-</li>
+<p>Delete all local branches not present on remote</p>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="ln">1</span>$ git branch --merged <span class="p">|</span> grep -v <span class="s2">&#34;master&#34;</span> <span class="p">|</span> grep -v <span class="s2">&#34;develop&#34;</span> &gt; /tmp/merged-branches <span class="o">&amp;&amp;</span> vi /tmp/merged-branches <span class="o">&amp;&amp;</span> xargs git branch -d &lt; /tmp/merged-branches
+</code></pre></div></li>
 <li>
 <p>Delete all local branches with remote branch GONE</p>
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="ln">1</span>$ git fetch -p <span class="o">&amp;&amp;</span> <span class="k">for</span> branch in <span class="s1">&#39;git for-each-ref --format &#39;</span>%<span class="o">(</span>refname<span class="o">)</span> %<span class="o">(</span>upstream:track<span class="o">)</span><span class="s1">&#39; refs/heads | awk &#39;</span><span class="nv">$2</span> <span class="o">==</span> <span class="s2">&#34;[gone]&#34;</span> <span class="o">{</span>sub<span class="o">(</span><span class="s2">&#34;refs/heads/&#34;</span>, <span class="s2">&#34;&#34;</span>, <span class="nv">$1</span><span class="o">)</span><span class="p">;</span> print <span class="nv">$1</span><span class="o">}</span><span class="err">&#39;</span><span class="p">;</span> <span class="k">do</span> git branch -D <span class="nv">$branch</span><span class="p">;</span> <span class="k">done</span>
-</code></pre></div><p><code>$ git fetch -p &amp;&amp; for branch in 'git for-each-ref --format '%(refname) %(upstream:track)' refs/heads | awk '$2 == &quot;[gone]&quot; {sub(&quot;refs/heads/&quot;, &quot;&quot;, $1); print $1}'; do git branch -D $branch; done</code></p>
-</li>
+</code></pre></div></li>
 <li>
 <p>Remove submodules completely</p>
 <ul>
