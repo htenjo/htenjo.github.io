@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Clarity</title>
-    <link>https://htenjo.github.io/categories/</link>
+    <link>https://htenjo.dev/categories/</link>
     <description>Recent content in Categories on Clarity</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2020, all rights reserved.</copyright>
     <lastBuildDate>Mon, 31 Aug 2020 09:38:40 -0500</lastBuildDate>
     
-	<atom:link href="https://htenjo.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://htenjo.dev/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tools</title>
-      <link>https://htenjo.github.io/categories/tools/</link>
+      <link>https://htenjo.dev/categories/tools/</link>
       <pubDate>Mon, 31 Aug 2020 09:38:40 -0500</pubDate>
       
-      <guid>https://htenjo.github.io/categories/tools/</guid>
+      <guid>https://htenjo.dev/categories/tools/</guid>
       <description></description>
     </item>
     
     <item>
       <title>java</title>
-      <link>https://htenjo.github.io/categories/java/</link>
+      <link>https://htenjo.dev/categories/java/</link>
       <pubDate>Sun, 23 Aug 2020 14:47:57 -0500</pubDate>
       
-      <guid>https://htenjo.github.io/categories/java/</guid>
+      <guid>https://htenjo.dev/categories/java/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blog</title>
-      <link>https://htenjo.github.io/categories/blog/</link>
+      <link>https://htenjo.dev/categories/blog/</link>
       <pubDate>Fri, 21 Aug 2020 12:40:58 -0500</pubDate>
       
-      <guid>https://htenjo.github.io/categories/blog/</guid>
+      <guid>https://htenjo.dev/categories/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>static sites</title>
-      <link>https://htenjo.github.io/categories/static-sites/</link>
+      <link>https://htenjo.dev/categories/static-sites/</link>
       <pubDate>Fri, 21 Aug 2020 12:40:58 -0500</pubDate>
       
-      <guid>https://htenjo.github.io/categories/static-sites/</guid>
+      <guid>https://htenjo.dev/categories/static-sites/</guid>
       <description></description>
     </item>
     

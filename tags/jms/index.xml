@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>jms on Clarity</title>
-    <link>https://htenjo.github.io/tags/jms/</link>
+    <link>https://htenjo.dev/tags/jms/</link>
     <description>Recent content in jms on Clarity</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2020, all rights reserved.</copyright>
     <lastBuildDate>Sun, 23 Aug 2020 14:47:57 -0500</lastBuildDate>
     
-	<atom:link href="https://htenjo.github.io/tags/jms/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://htenjo.dev/tags/jms/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Differences between AMQP and JMS</title>
-      <link>https://htenjo.github.io/post/java/differences-between-amqp-and-jms/</link>
+      <link>https://htenjo.dev/post/java/differences-between-amqp-and-jms/</link>
       <pubDate>Sun, 23 Aug 2020 14:47:57 -0500</pubDate>
       
-      <guid>https://htenjo.github.io/post/java/differences-between-amqp-and-jms/</guid>
+      <guid>https://htenjo.dev/post/java/differences-between-amqp-and-jms/</guid>
       <description>Understanding the differences between JMS &amp;amp; AMQP In the site Understanding the differences between JMS &amp;amp; AMQP, Mark Richards explains in detail what AMQP is and how it is different from JMS.
 In a few words:
  AMQP (Advanced Message Queuing Protocol) is the de facto standard for those outside of JVM ecosystem (those who can&amp;rsquo;t use JMS) with more ways to interact between publishers and subscribers and with the additional infrastructure required to decouple the integration between them.</description>

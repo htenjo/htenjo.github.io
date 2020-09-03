@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Clarity</title>
-    <link>https://htenjo.github.io/</link>
+    <link>https://htenjo.dev/</link>
     <description>Recent content on Clarity</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2020, all rights reserved.</copyright>
     <lastBuildDate>Mon, 31 Aug 2020 09:38:40 -0500</lastBuildDate>
     
-	<atom:link href="https://htenjo.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://htenjo.dev/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Personal Git Cheat Sheet</title>
-      <link>https://htenjo.github.io/post/tools/git-cheat-sheet/</link>
+      <link>https://htenjo.dev/post/tools/git-cheat-sheet/</link>
       <pubDate>Mon, 31 Aug 2020 09:38:40 -0500</pubDate>
       
-      <guid>https://htenjo.github.io/post/tools/git-cheat-sheet/</guid>
+      <guid>https://htenjo.dev/post/tools/git-cheat-sheet/</guid>
       <description>Git commands For sure there are a lot of additional git commands, weird configurations, or more robust cheat sheets everywhere but this is my own compilation, these are most of the commands I&amp;rsquo;ve required on a daily basis organized and with a description easy to understand for future reference.
 For different command options, I&amp;rsquo;ll use ::: to avoid confusion with semicolons or other characters.
 Configuration commands    Type Description Command     Config Configure vscode as default git editor $ git config --global core.</description>
@@ -24,10 +24,10 @@ Configuration commands    Type Description Command     Config Configure vscode a
     
     <item>
       <title>Differences between AMQP and JMS</title>
-      <link>https://htenjo.github.io/post/java/differences-between-amqp-and-jms/</link>
+      <link>https://htenjo.dev/post/java/differences-between-amqp-and-jms/</link>
       <pubDate>Sun, 23 Aug 2020 14:47:57 -0500</pubDate>
       
-      <guid>https://htenjo.github.io/post/java/differences-between-amqp-and-jms/</guid>
+      <guid>https://htenjo.dev/post/java/differences-between-amqp-and-jms/</guid>
       <description>Understanding the differences between JMS &amp;amp; AMQP In the site Understanding the differences between JMS &amp;amp; AMQP, Mark Richards explains in detail what AMQP is and how it is different from JMS.
 In a few words:
  AMQP (Advanced Message Queuing Protocol) is the de facto standard for those outside of JVM ecosystem (those who can&amp;rsquo;t use JMS) with more ways to interact between publishers and subscribers and with the additional infrastructure required to decouple the integration between them.</description>
@@ -35,28 +35,28 @@ In a few words:
     
     <item>
       <title>Build your blog with GitHub Pages for FREE</title>
-      <link>https://htenjo.github.io/post/blog/free-blog-platform/</link>
+      <link>https://htenjo.dev/post/blog/free-blog-platform/</link>
       <pubDate>Fri, 21 Aug 2020 12:40:58 -0500</pubDate>
       
-      <guid>https://htenjo.github.io/post/blog/free-blog-platform/</guid>
+      <guid>https://htenjo.dev/post/blog/free-blog-platform/</guid>
       <description>I tried multiple times to create a blog and publish things constantly but I failed each time. I usually started with a lot of enthusiasm but the tools used to create and publish content, always were boring and tedious for me to don&amp;rsquo;t say complex. I tried WordPress because everyone says it&amp;rsquo;s the best CMS but It&amp;rsquo;s overwhelming the number of pluggings, configurations, deployment, and so on, it&amp;rsquo;s overkill for a simple blog like this one.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://htenjo.github.io/archives/</link>
+      <link>https://htenjo.dev/archives/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://htenjo.github.io/archives/</guid>
+      <guid>https://htenjo.dev/archives/</guid>
       <description></description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://htenjo.github.io/about/</link>
+      <link>https://htenjo.dev/about/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://htenjo.github.io/about/</guid>
+      <guid>https://htenjo.dev/about/</guid>
       <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
 Hugo makes use of a variety of open source projects including:
  https://github.</description>
